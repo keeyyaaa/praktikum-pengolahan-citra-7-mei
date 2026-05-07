@@ -23,9 +23,9 @@ Pada bagian ini, deteksi tepi dilakukan dengan membangun fungsi konvolusi 2D sec
 * **Metode:** Menggunakan kernel Gx (horizontal) dan Gy (vertikal) berukuran 3x3.
 * **Evaluasi:** Hasil Sobel manual dibandingkan dengan fungsi `cv2.Sobel` bawaan OpenCV, dan tingkat kemiripannya diukur menggunakan **RMSE (Root Mean Square Error)**.
 
- | Tugas 1 |
+ |Hasil Tugas 1 |
 |:---:|
-| <img src="colonca1.jpeg" width="1000"> |
+| <img src="tugas 1.png" width="1000"> |
 
 ### 2️⃣ Tugas 2: Canny Parameter Sweep
 Eksperimen ini bertujuan untuk melihat sensitivitas metode Canny terhadap perubahan parameter.
@@ -33,9 +33,11 @@ Eksperimen ini bertujuan untuk melihat sensitivitas metode Canny terhadap peruba
 * **Visualisasi:** Menggunakan **Heat Map** (berwarna *Purples*) untuk memetakan jumlah piksel tepi yang terdeteksi pada berbagai kombinasi *Low Threshold* dan *High Threshold*.
 * **Hasil:** Semakin rendah nilai threshold, program menjadi semakin sensitif dan mendeteksi lebih banyak garis tepi (noise ikut terdeteksi).
 
- | Tugas 2 |
-|:---:|
-| <img src="colonca1009.jpeg" width="1000"> |
+ | Hasil Tugas 2 | Hasil Tugas 2 | Hasil Tugas 2 |
+|:---:|:---:|:---:|
+| <img src="tugas2 1.png" width="1000"> | <img src="tugas2 2.png" width="1000"> | <img src="tugas2 3.png" width="1000"> |
+
+
 
 
 ### 3️⃣ Tugas 3: Streamlit Web App 🐈
@@ -48,7 +50,7 @@ Aplikasi web interaktif dengan antarmuka yang ramah pengguna.
 ---
  | Tugas 3 |
 |:---:|
-| <img src="colonn1020.jpeg" width="1000"> |
+| <img src="tugas 3.png" width="1000"> |
 
 ## 🛠️ Cara Menjalankan Aplikasi (How to Run)
 
