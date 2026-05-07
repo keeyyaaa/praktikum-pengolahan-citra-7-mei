@@ -23,6 +23,8 @@ Pada bagian ini, deteksi tepi dilakukan dengan membangun fungsi konvolusi 2D sec
 * **Metode:** Menggunakan kernel Gx (horizontal) dan Gy (vertikal) berukuran 3x3.
 * **Evaluasi:** Hasil Sobel manual dibandingkan dengan fungsi `cv2.Sobel` bawaan OpenCV, dan tingkat kemiripannya diukur menggunakan **RMSE (Root Mean Square Error)**.
 
+   <img src="colonca1.jpeg" width="1000">
+
 ### 2️⃣ Tugas 2: Canny Parameter Sweep
 Eksperimen ini bertujuan untuk melihat sensitivitas metode Canny terhadap perubahan parameter.
 * **Dataset:** 3 citra medis kanker dengan karakteristik berbeda (kontras rendah, noise, dll).
